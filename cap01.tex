@@ -1,0 +1,116 @@
+\chapter[INTRODUÇÃO]{INTRODUÇÃO}
+%---------------------------------------------------------------------------------------
+
+
+\cite{ISO5122:1979}
+
+\textcite{ISO5122:1979}
+
+\begin{itemize}
+ \item para inserir uma sigla: 
+    \verb|\criarsigla|\{ABNT\}{Associa\c{c}\~ao Brasileira de Normas T\'ecnicas}:
+
+    \criarsigla{ABNT}{Associa\c{c}\~ao Brasileira de Normas T\'ecnicas}
+
+\item para inserir s\'imbolo: 
+    \verb|\criarsimbolo{$ \Gamma $}{Letra grega Gama}|
+  
+    $ \Gamma $ \criarsimbolo{$ \Gamma $}{Letra grega Gama}
+
+\end{itemize}
+
+% Usado para testar o formato uppercase dos t\'itulos 
+% em maiusculas nas respectivas listas
+%---------------------------------------------------------------------------------------
+\begin{table}[!ht]
+ \centering
+ \par\caption{TesTANDO TABELAS}
+
+\begin{tabular}{c|c|c}
+ teste1&teste1&teste1\\\hline\hline
+  1&2&3\\\hline
+ \end{tabular}
+ \label{tab:tab01}
+\end{table}
+
+
+
+\tabela{tabela teste} %1 Título da tabela
+{
+\begin{tabular}{c|c|c|c|c|c}
+ teste1&teste2&teste3&teste1&teste2&teste3\\\hline\hline
+  1&2&3&4&5&6\\\hline
+ \end{tabular}
+} %2 Tabela
+{\textcite{ISO5122:1979}}%3 Fonte da tabela
+{teste1} %4 Label da tabela tab:teste1
+{ Nota de teste } %5 Nota da tabela
+{testando as figuras e tabelas, fda} %6 Legenda da tabela
+
+
+\figura
+{TESTE DE FIGURAS 2} %1 Legenda
+{.55} %2  % da largura da área de texto
+{fig/figure} %3 localização da figura
+{\textcite[1]{abntex2modelo}} %4 fonte da figura
+{teste} %5 etiqueta
+{\url{https://goo.gl/EKFRak} TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2} %6 Nota da figura
+{} %7 Legenda da figura
+
+\figura
+{TESTE DE FIGURAS 3} % Legenda
+{.65} % % da largura da área de texto
+{fig/tipog} % localização da figura
+{o Autor (2017)} % fonte da figura
+{tipo1} % etiqueta
+{}
+{}
+
+\figura
+{Figura original} % Legenda
+{.35} % % da largura da área de texto
+{fig/fig} % localização da figura
+{\textcite{luminaria01}} % fonte da figura
+{tipo2} % etiqueta
+{}
+{}
+
+\figurac
+{Figura aparada} % Legenda
+{.35} % % da largura da área de texto
+{fig/fig} % localização da figura
+{\textcite{luminaria01}} % fonte da figura
+{tipo3} % etiqueta =>  fig:tipo3
+{notinha}   % Nota
+{legendonha} % legenda
+{70} % laterais mm
+{80} % superior e inferior mm
+
+
+A \autoref{fig:teste} apresenta o seguinte detalhe que deve ser observado em pacientes com Wordnite
+
+%---------------------------------------------------------------------------------------
+\chapter{REVISÃO TEÓRICA}
+
+\textcite[3.1-3.2]{abntex2modelo}
+
+\textcite{luminaria01}
+
+\textcite{luminaria01}
+
+
+\textcite{luminaria01}
+
+
+
+\textcite{luminaria01}
+
+\textcite{ISO5122:1979}
+
+\section{Modelo}
+
+\subsection{Modelo simplificado}
+\newpage
+\textcite[3.1-3.2]{abntex2modelo}
+
+\subsubsection{Modelo simplificadíssimo}
