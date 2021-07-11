@@ -13,3 +13,10 @@
 *.blg
 
 *.bbl
+.Rproj.user
+
+R/.Rhistory
+
+R/.RData
+
+*.Rproj
