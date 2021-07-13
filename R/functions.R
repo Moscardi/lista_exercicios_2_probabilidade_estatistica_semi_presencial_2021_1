@@ -3,14 +3,7 @@ require("ggplot2")
 require("e1071")
 
 # Delete all previous data
-rm(
-  list = ls()
-)
-
-# Set work directory to current directory
-setwd(
-  dir = getwd()
-)
+rm(list = ls())
 
 initialization <- function() {
   
